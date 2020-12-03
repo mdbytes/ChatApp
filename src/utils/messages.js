@@ -1,3 +1,8 @@
+/*
+To generate messages in appropriate format, this file contins two functions;
+generateMessage and generateLocationMessage.  
+*/
+
 const generateMessage = (username, text) => {
   return {
     username,

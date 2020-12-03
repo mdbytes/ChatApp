@@ -1,6 +1,9 @@
-const users = []
+/*
+For the purpose of managing users, including tracking users in rooms, this file 
+contains four functions; addUser, removeUser, getUser, getUsersInRoom
+*/
 
-// Four functions; addUser, removeUser, getUser, getUsersInRoom
+const users = []
 
 const addUser = ({ id, username, room }) => {
   // Clean the data
@@ -13,12 +16,11 @@ const addUser = ({ id, username, room }) => {
       error: 'Must provide username and room'
     }
   }
-  // Check for existing user
 
+  // Check for existing user
   const existingUser = users.find(user => {
     return user.room === room && user.username === username
   })
-
   if (existingUser) {
     return {
       error: 'Username is in use'

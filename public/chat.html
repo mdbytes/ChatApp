@@ -10,14 +10,15 @@
 <body>
   <div class="chat">
     <div id="sidebar" class="chat__sidebar">
-
+      <!-- Using the script in #sidebar template below, 
+        Mustache renders the room and users here -->
     </div>
     <div class="chat__main">
       <div id="messages" class="chat__messages"></div>
-
+      <!-- Using the script in #message-template and #location-message-template below,
+           Mustache renders the room and users here -->
       <div class="compose">
         <form id="message-form">
-
           <input name="message" type="text" placeholder="Message" autocomplete="off" />
           <button>Send</button>
         </form>
