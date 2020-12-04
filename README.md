@@ -20,3 +20,6 @@ package for rendering chat room users and messages.
 This application was orignally developed as part of the following course:
 "The complete node.js developer course" by Andrew Mead which can be found
 at: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
+
+This app has been deployed to heroku at: 
+https://dashboard.heroku.com/apps/mdbytes-chat-app
