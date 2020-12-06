@@ -216,6 +216,7 @@ header h1 {
 
 #app-description-text {
   width: 60%;
+  min-width: 300px;
   float: right;
 }
 
@@ -234,13 +235,22 @@ footer {
 
 #home-logo-container {
   margin: 1.5em auto;
-  width: 300px;
+  width: 30vw;
   height: auto;
 }
 
 #home-logo-container img {
-  width: 70%;
+  width: 30%;
   height: auto;
+}
+
+#home-logo-container #title {
+  width: 65%;
+  margin-left: 5%;
+  color: #ffffff;
+  float: right;
+  font-size: 300%;
+  font-weight: bolder;
 }
 
 #home-button-container {
